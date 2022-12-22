@@ -34,7 +34,7 @@ public class CreateDeveloper {
         @Size(min=3,max =20 , message = "name size must 3~20")
         private String name;
         @Min(18)
-        private String age;
+        private Integer age;
     }
 
     @Getter
